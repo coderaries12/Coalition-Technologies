@@ -27,7 +27,7 @@
 </head>
 <body>
      <!-- Main container -->
-    <div class="main-container">
+    <div class="container-fluid">
         <!-- Section 1 -->
         <section class="s-1">
             <!-- Logo -->
@@ -45,8 +45,8 @@
           <a href="#" class="logo2"><img src="Images/Logo_with_Mountains.png" alt="mountain logo" /></a>
             <!-- NavBar 2 -->
           <nav class="navbar2">
-            <a href="#f-s" class="nv1"><strong><em>01. History</em></strong></a>
-            <a href="#c-s" class="nv2"><strong><em>02. Team</em></strong></a>
+            <a href="#f-s" class="nav-link2"><strong><em>01. History</em></strong></a>
+            <a href="#c-s" class="nav-link2"><strong><em>02. Team</em></strong></a>
           </nav>
         </section>
 
@@ -205,23 +205,24 @@
         <div class="tab-content tab-bg1" id="myTabContent">
             <!-- Tab pane 1 -->
             <div class="tab-pane fade show active" id="mountain1" role="tabpanel" aria-labelledby="mountain1-tab">
-              <div>
+              <div class="schedule-container">
                 <img src="Images/schedule-content.png" alt="" class="schedule" />
               </div>
             </div>
             <!-- Tab pane 2 -->
             <div class="tab-pane fade tab-bg2" id="mountain2" role="tabpanel" aria-labelledby="mountain2-tab">
-              <div>
+              <div class="schedule-container">
                 <img src="Images/schedule-content.png" alt="" class="schedule" />
               </div>
             </div>
           </div>
 
           <!-- Accordion -->
-          <div id="accordionPanelsStayOpenExample">
-            <div>
-              <h2 id="panelsStayOpen-headingOne">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item accordion-bg1">
+              <h2  class="accordion-header"  id="panelsStayOpen-headingOne">
                 <button
+                  class="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseOne"
@@ -231,17 +232,18 @@
                   Mountain 1
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" aria-labelledby="panelsStayOpen-headingOne">
-                <div>
-                  <div>
+              <div id="panelsStayOpen-collapseOne"  class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body center">
+                  <div class="schedule-container-accord">
                     <img src="Images/schedule-content.png" alt="" class="schedule" />
                   </div>
                 </div>
               </div>
             </div>
-            <div>
-              <h2 id="panelsStayOpen-headingTwo">
+            <div class="accordion-item accordion-bg2">
+              <h2 id="panelsStayOpen-headingTwo" class="accordion-header">
                 <button
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseTwo"
@@ -252,8 +254,8 @@
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseTwo" aria-labelledby="panelsStayOpen-headingTwo">
-                <div>
-                  <div>
+                <div class="accordion-body">
+                  <div class="schedule-container-accord">
                     <img src="Images/schedule-content.png" alt="" class="schedule" />
                   </div>
                 </div>
