@@ -122,7 +122,8 @@ html {
 .s-2 {
   width: 100%;
   height: 94vh;
-  background: url('Images/background.png') no-repeat;
+/*   background: url('Images/background.png') no-repeat; */
+  background: url('Images/banner2.png') no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -235,14 +236,16 @@ html {
 }
 
 .tab-bg1 {
-  background: url('Images/tab1.png') no-repeat;
+/*   background: url('Images/tab1.png') no-repeat; */
+  background: url('Images/banner2.png') no-repeat;
   background-size: cover;
   height: 80%;
   position: relative;
   background-position: bottom;
 }
 .tab-bg2 {
-  background: url('Images/tab2.png') no-repeat;
+/*   background: url('Images/tab2.png') no-repeat; */
+  background: url('Images/banner2.png') no-repeat;
   background-size: cover;
   height: 100%;
   position: relative;
@@ -521,13 +524,15 @@ html {
   }
 
   .accordion-bg1 {
-    background: url('Images/tab1.png') no-repeat;
+/*     background: url('Images/tab1.png') no-repeat; */
+    background: url('Images/banner2.png') no-repeat;
     background-size: cover;
     height: 80%;
     background-position: bottom;
   }
   .accordion-bg2 {
-    background: url('Images/tab2.png') no-repeat;
+/*     background: url('Images/tab2.png') no-repeat; */
+    background: url('Images/banner2.png') no-repeat;
     background-size: cover;
     height: 100%;
     background-position: bottom;
