@@ -1,7 +1,6 @@
-# Los Angeles Mountains Website
-![Los Angeles Mountains](/images/LAMountains.png)
+# [Los Angeles Mountains Website](https://coderaries12.github.io/LA-Mountain/)
 
-Check out [LA Mountains](https://coderaries12.github.io/LA-Mountain/) 
+![Los Angeles Mountains](/images/LAMountains.png)  
 
 
 
