@@ -39,7 +39,7 @@ html {
 .s-1 {
   width: auto; 
   height: 72.5vh; 
-  background: url('../images/banner2.png') no-repeat;
+  background: url('/images/banner2.png') no-repeat;
   background-size: cover;
   display: flex;
 }
